@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Đang chuyển hướng...</title>
+<script>
+(function(){
+  var p = window.location.pathname;
+  if (p.indexOf('/hermes-website') === 0) return;
+  window.location.replace('/hermes-website' + p + window.location.search + window.location.hash);
+})();
+</script>
+<meta http-equiv="refresh" content="0; url=/hermes-website/">
+</head>
+<body>
+<p>Đang chuyển hướng tới <a href="/hermes-website/">Nhân Sự Toàn Năng Hermes</a>...</p>
+</body>
+</html>
